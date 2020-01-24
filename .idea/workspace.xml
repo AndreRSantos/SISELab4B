@@ -186,11 +186,11 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="370" y="131" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.760@0.0.1280.760" timestamp="1579643543880" />
-    <state x="459" y="0" key="CommitChangelistDialog2" timestamp="1579888088552">
+    <state x="459" y="0" key="CommitChangelistDialog2" timestamp="1579888108473">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="306" y="0" key="CommitChangelistDialog2/0.0.1280.760@0.0.1280.760" timestamp="1579643688291" />
-    <state x="459" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1579888088552" />
+    <state x="459" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1579888108473" />
     <state x="100" y="100" width="1080" height="560" key="DiffContextDialog" timestamp="1579643681838">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
@@ -219,6 +219,10 @@
     </state>
     <state width="1220" height="187" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1579643597353" />
     <state width="1877" height="148" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579886839043" />
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1579888099451">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1579888099451" />
     <state x="655" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1579801470899">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
