@@ -2,12 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="846362e7-e1d6-43e9-b58d-2913eb2c84c2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/libs/istack-commons-tools.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/jaxb-jxc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/jaxb-runtime.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/jaxb-xjc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/jaxr-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/jaxws-tools.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/policy.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/stax-ex.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/streambuffer.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/wsimport.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/wsimport.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cs/calc/server/Methods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cs/calc/server/Peer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cs/calc/server/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cs/peer/client/Check.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cs/peer/client/CheckResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cs/peer/client/ObjectFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cs/peer/client/Peer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cs/peer/client/PeerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cs/peer/client/ToPeer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cs/peer/client/ToPeerResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cs/peer/client/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cs/calc/server/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cs/calc/server/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -19,24 +46,32 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
   <component name="ProjectId" id="1WirF0R5CAOmNXRgbesLUlvdsku" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="cs.calc.server" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.test">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cs.calc.server.Main" />
-      <module name="SISELab4B" />
+      <module name="PeerToPeer" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cs.calc.server.*" />
@@ -47,8 +82,69 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cs.calc.server.test" />
+      <module name="PeerToPeer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cs.calc.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="PeerToPeer" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="PeerToPeer" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -78,34 +174,54 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="808" y="410" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1579791535550">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="808" y="410" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579791535550" />
     <state x="370" y="131" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579643543880">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="370" y="131" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.760@0.0.1280.760" timestamp="1579643543880" />
-    <state x="306" y="0" key="CommitChangelistDialog2" timestamp="1579643688291">
-      <screen x="0" y="0" width="1280" height="760" />
+    <state x="459" y="0" key="CommitChangelistDialog2" timestamp="1579888088552">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="306" y="0" key="CommitChangelistDialog2/0.0.1280.760@0.0.1280.760" timestamp="1579643688291" />
+    <state x="459" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1579888088552" />
     <state x="100" y="100" width="1080" height="560" key="DiffContextDialog" timestamp="1579643681838">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="100" y="100" width="1080" height="560" key="DiffContextDialog/0.0.1280.760@0.0.1280.760" timestamp="1579643681838" />
-    <state width="1220" height="187" key="GridCell.Tab.0.bottom" timestamp="1579643597355">
-      <screen x="0" y="0" width="1280" height="760" />
+    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1579802570770">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1579802570770" />
+    <state width="1877" height="148" key="GridCell.Tab.0.bottom" timestamp="1579886839043">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1220" height="187" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1579643597355" />
-    <state width="1220" height="187" key="GridCell.Tab.0.center" timestamp="1579643597353">
-      <screen x="0" y="0" width="1280" height="760" />
+    <state width="1877" height="148" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579886839043" />
+    <state width="1877" height="148" key="GridCell.Tab.0.center" timestamp="1579886839043">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1220" height="187" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1579643597353" />
-    <state width="1220" height="187" key="GridCell.Tab.0.left" timestamp="1579643597353">
-      <screen x="0" y="0" width="1280" height="760" />
+    <state width="1877" height="148" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579886839043" />
+    <state width="1877" height="148" key="GridCell.Tab.0.left" timestamp="1579886839043">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1220" height="187" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1579643597353" />
-    <state width="1220" height="187" key="GridCell.Tab.0.right" timestamp="1579643597353">
-      <screen x="0" y="0" width="1280" height="760" />
+    <state width="1877" height="148" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579886839043" />
+    <state width="1877" height="148" key="GridCell.Tab.0.right" timestamp="1579886839043">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1220" height="187" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1579643597353" />
+    <state width="1877" height="148" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579886839043" />
+    <state x="655" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1579801470899">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="655" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579801470899" />
   </component>
 </project>

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SISELab4B.iml" filepath="$PROJECT_DIR$/SISELab4B.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PeerToPeer.iml" filepath="$PROJECT_DIR$/PeerToPeer.iml" />
     </modules>
   </component>
 </project>
